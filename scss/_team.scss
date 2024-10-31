@@ -1,0 +1,26 @@
+.team{
+    height: fit-content;
+    .user{
+       
+
+        @include background;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            @include info;
+            
+            .icon{
+                font-size: 16px;
+                i:hover{
+                    color: $bgcol;
+                }
+            }
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}

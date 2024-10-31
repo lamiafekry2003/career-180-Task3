@@ -1,0 +1,27 @@
+.more{
+    height: fit-content;
+    .card{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border: none !important;
+        
+
+        img{
+            border-radius: none !important;
+            transition: transform 1s;
+            &:hover{
+                transform: scale(.8);
+            }
+        }
+        .card-body{
+            text-align: center !important;
+            color: $logo;
+            h3{
+                font-size: 24px;
+                font-weight: 700;
+                margin-top: 30px;
+                margin-bottom: 18px;
+            }
+        }
+    }
+
+}

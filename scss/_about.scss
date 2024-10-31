@@ -1,0 +1,54 @@
+section {
+    height: fit-content;
+    background-color: #FFFFFF;
+    animation-name: about;
+    animation-duration: 2s;
+    padding: 30px 0;
+
+    .text {
+        color: $logo ;
+        font-weight: 600;
+
+        p {
+            font-style: italic;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: -20px;
+
+            li {
+
+                i {
+                    color: $bgcol;
+                    border: 2px solid $bgcol;
+                    border-radius: 50%;
+                    padding: 1px 2px;
+                    text-align: center;
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    .but{
+        background-color: $bgcol;
+        color: white;
+        text-decoration: none;
+        i{
+            color: white;
+            padding-left: 3px !important;
+        }
+        &:hover{
+            background-color: $bgcol;
+            color: white;
+        }
+    }
+}
+@keyframes about {
+    from{
+        padding: 10px 0;
+    }
+    to{
+        padding: 30px 0;
+    }
+}

@@ -1,0 +1,31 @@
+.freq{
+    background-color: $thirdcolo;
+    height: fit-content;
+    h3{
+        color: $logo;
+        font-weight: 600;
+        line-height: 1.4;
+        font-size: 32px;
+        span{
+            font-weight: bolder;
+        }
+    }
+    p{
+        color: $textnav;
+    }
+    .accordion-button{
+       background-color: transparent !important;
+       box-shadow: none !important;
+       color: $bgcol;
+       font-weight: 600;
+       font-size: 18px;
+       line-height: 24px;
+       cursor: pointer;
+       
+    }
+    .accordion-body{
+        color: $logo !important;
+        font-weight: 600;
+    }
+
+}

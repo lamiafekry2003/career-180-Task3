@@ -1,0 +1,35 @@
+.contect{
+    height: fit-content;
+    .cont{
+        @include contatactbg;
+        padding: 30px;
+        height: fit-content;
+        i{
+            color: $bgcol;
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+        .name{
+            display: flex;
+            gap: 10px;
+        }
+        input{
+            margin-block: 10px;
+            padding-block: 10px;
+            width: 100%;
+            border:1px solid #ffffff9b ;
+         @include focus
+        }
+        textarea{
+            padding: 10px 35px 60px 10px;
+            border-color: #8282823b;
+            @include focus;
+            margin-block: 20px;
+            color: $textnav;
+        }
+        button{
+            @include buttons
+        }
+    }
+
+}

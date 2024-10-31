@@ -1,0 +1,27 @@
+.range{
+    background-color: $thirdcolo;
+    height: fit-content;
+    i{
+        color: $bgcol;
+        font-size: 44px;
+    }
+    .tex{
+        margin-left: 20px;
+    }
+    span{
+        color: $logo;
+        font-size: 48px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+    p{
+        color: $logo;
+        opacity: .7;
+        
+    }
+    p span{
+        font-size: 18px;
+        opacity: .6;
+    }
+
+}
